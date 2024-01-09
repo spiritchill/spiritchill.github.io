@@ -39,8 +39,8 @@ a{
 ul li {
     margin : 5px;
     padding:10px;
-    border:2px solid aqua;
-    background-color: blue;
+    
+    background-color: none;
     border-radius: 30px;
     letter-spacing: 2px;
     text-transform: uppercase;
