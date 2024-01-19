@@ -1,94 +1,92 @@
-
 body{
+    background-color: rgb(0, 0, 0);
+    margin:2px;
+    height: 100vh;
+    width: 100vw;
+}
+
+.back{
     padding:0;
     margin:0;
-}
-
-nav {
-    background-color:grey;
-
-    width: 100vw;
     position: relative;
+    height:100vh;
+    width: 100vw;
 }
 
-
-
-nav ul {
-background-color: grey;
-    gap: 25px;
-    display: flex;
-   
-
-    list-style-type: none;
-    font-family: sans-serif;
-    padding: 0;
-    margin: 0;
-    border: 2px solid black;
-    border: 3px solid rgba(255, 255, 255, 0.252);
-    justify-content:center
-
-
-}
-
-a{
-    color:white;
-    background-color: none;
-    font-weight: 1000;
+.nav{
+    margin:0;
+    padding:0;
   
-}
-ul li {
-    margin : 5px;
-    padding:10px;
     
-    background-color: none;
-    border-radius: 30px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: white;
-    font-weight: 1000;
-    float: none;
-    justify-content: space-around;
+    background-color: rgb(27 61 64);
+   
+    left:0;
+    display: flex;
 }
 
-a {
-    text-decoration: none;
-}
 
-.gojo{
-    height:80vh;
-    width:100vw;
+.nav ul{
+    gap:100px;
+    
     position:relative;
-    border-radius: 30px;
-    box-sizing: border-box;
-    padding:10%;
-    overflow:hidden;
+    display:flex;
+   width:100%;
+  
+    list-style-type: none;
 }
 
-.gojos{
+ul li{
+
+    
+    list-style: none;
+    
+    float:none;
+}
+a{
+    background-color: transparent;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-family: 'Lato',sans-serif;
+    font-weight: bold;
+}
+.first{
+position: absolute;
+    background-color:black;
+    height: 100%;
     width: 100%;
-    height:100%;
-    border-radius: 100px;
-
-    position: absolute;
-    bottom: 8%;
-    right : 0;
-    opacity: 0.5;
-}
-
-bottom{
-    z-index: -1;
-    height:100%;
-    width:100%;
-    background-color: white;
+    color:white;
+    font-family: sans-serif;
     
 }
-
-.content{
-    position:absolute;
-    padding-left : 150px;
-    padding-bottom:100px;
+img{
+    border: 2px solid black;
+    margin-bottom: 5px;
 }
 
-
-
+#pp{
     
+height: 40px;
+width:50px;
+
+
+}
+.profile{
+    top:5px;
+    left: 10px;
+   position: relative;
+
+}
+h2{
+    font-weight: bolder;
+    margin-top:50px;
+    margin-left:80px;
+}
+
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left:80px;
+    margin-top:-20px;
+    size:10px;
+}
+
